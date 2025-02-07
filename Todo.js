@@ -1,8 +1,8 @@
 let todo = [];
 
-const todoform = document.querySelector('.todo-form');
-const todoinput = todoform.querySelector('input');
-const todolist = document.querySelector('.todo-list');
+const todoform = document.querySelector('todo-form');
+const todoinput = document.querySelector('input');
+const todolist = document.querySelector('todo-list');
 
 function renderTodos(){
 
